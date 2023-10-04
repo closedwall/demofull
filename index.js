@@ -9,7 +9,7 @@ app.get("/",(req,res)=>{
     res.render("index.ejs")
 })
 
-const PORT =  process.env.PORT || 3000;
+const PORT =  process.env.PORT || 5000;
 
 app.listen(PORT,(req,res)=>{
     console.log(`the server is running on ${PORT}`)
